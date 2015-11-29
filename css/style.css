@@ -1,0 +1,62 @@
+*{
+    margin : 0px;
+    padding : 0px;
+}
+
+#button {
+    margin : 20px auto;
+    height : 30px;
+    width : 100px;
+    background-color : #bfc4ce;
+    border : 1px ridge grey;
+    border-radius : 2px;
+    font-family : Arial;
+    font-size : 15px;
+    line-height: 30px;
+    text-align : center;
+    cursor : pointer;
+}
+
+#close {
+    margin : 0 auto;
+    height : 30px;
+    width : 100px;
+    background-color : red;
+    border : 1px ridge grey;
+    border-radius : 5px;
+    font-family : Arial;
+    font-size : 15px;
+    line-height: 30px;
+    text-align : center;
+    cursor : pointer;
+}
+
+#close:hover {
+    color : white;
+    background-color : red;
+}
+
+#button:hover {
+    color : white;
+    background-color : grey;
+}
+
+#myForm {
+    position : relative;
+    top : 60px;
+    left : 400px;
+}
+#list {
+    width : 150px;
+}
+
+#response {
+    position : absolute;
+    top : 100px;
+    left : 350px;
+    margin-top: 20px;
+    margin-left: 50px;
+    color : blue;
+    font-family : Cursive;
+    font-size : 15x;
+}
